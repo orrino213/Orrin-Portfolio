@@ -1,6 +1,5 @@
 import { lazy } from "react";
-const Home = lazy(() => import("../components/home/Home"));
-const PageNotFound = lazy(() => import("../components/error/"));
+const Home = lazy(() => import("../home/Home"));
 
 const routes = [
   {
@@ -13,17 +12,6 @@ const routes = [
   },
 ];
 
-const errorRoutes = [
-  {
-    path: "*",
-    name: "Error - 404",
-    element: PageNotFound,
-    roles: [],
-    exact: true,
-    isAnonymous: true,
-  },
-];
-
-var allRoutes = [...routes, ...errorRoutes];
+var allRoutes = [...routes];
 
 export default allRoutes;
