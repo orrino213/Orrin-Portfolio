@@ -1,19 +1,19 @@
 import { useState } from "react";
+import "./home.css";
+import { Formik, Form, Field, ErrorMessage } from "formik";
 
 function Home() {
-  const [count, setCount] = useState(0);
-
-  setCount((count) => {
-    count++;
-  });
+  const [greeting] = useState("HELLO ORRIN");
 
   return (
     <div>
-      <div>
-        <div>
-          <button>count</button>
-        </div>
-      </div>
+      <h1>{greeting}</h1>
+      <Formik>
+        <Form>
+          <Field>Hello</Field>
+          <ErrorMessage>Error</ErrorMessage>
+        </Form>
+      </Formik>
     </div>
   );
 }
