@@ -10,7 +10,7 @@ function Home() {
       <h1>{greeting}</h1>
       <Formik>
         <Form>
-          <Field>Hello</Field>
+          <Field name="name" component="div" />
           <ErrorMessage>Error</ErrorMessage>
         </Form>
       </Formik>
