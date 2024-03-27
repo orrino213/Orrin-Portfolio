@@ -1,19 +1,14 @@
-import { useState } from "react";
 import "./home.css";
-import { Formik, Form, Field, ErrorMessage } from "formik";
 
 function Home() {
-  const [greeting] = useState("HELLO ORRIN");
-
   return (
     <div>
-      <h1>{greeting}</h1>
-      <Formik>
-        <Form>
-          <Field name="name" component="div" />
-          <ErrorMessage>Error</ErrorMessage>
-        </Form>
-      </Formik>
+      <p>eyyyy its edddggghhminnn</p>
+      <img
+        src="https://t4.ftcdn.net/jpg/01/08/65/91/360_F_108659197_qlPMbZOAsnDbsAsq5t7vfq0mA2zOxZ5d.jpg"
+        alt="placeholder"
+        className="home"
+      ></img>
     </div>
   );
 }
