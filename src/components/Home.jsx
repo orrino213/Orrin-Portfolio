@@ -2,7 +2,7 @@ import "./home.css";
 
 function Home() {
   return (
-    <h1>
+    <div className="container">
       <p>eyyyy its me deggggggggg</p>
       <h1>yo yo</h1>
       <h1>yo yo</h1>
@@ -12,7 +12,7 @@ function Home() {
         alt="placeholder"
         className="home"
       ></img>
-    </h1>
+    </div>
   );
 }
 
