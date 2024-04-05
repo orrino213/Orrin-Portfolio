@@ -1,7 +1,7 @@
-import "./home.css";
+import MyCarousel from "./carousel/Carousel";
 
 function Home() {
-  return <body></body>;
+  return <MyCarousel />;
 }
 
 export default Home;
