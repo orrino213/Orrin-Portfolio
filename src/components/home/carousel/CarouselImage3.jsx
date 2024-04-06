@@ -1,15 +1,7 @@
-import "./carousel.css";
+import carouselimage3 from "../../../assets/carouselimage3.jpg";
 
 function CarouselImage3() {
-  return (
-    <div className="carousel-image-container">
-      <img
-        src="https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg"
-        alt="ferrari"
-        className="carousel-image"
-      />
-    </div>
-  );
+  return <img src={carouselimage3} alt="ferrari" className="carousel-image" />;
 }
 
 export default CarouselImage3;
