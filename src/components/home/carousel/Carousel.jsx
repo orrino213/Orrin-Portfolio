@@ -1,12 +1,11 @@
 import Carousel from "react-bootstrap/Carousel";
 import CarouselImage from "./CarouselImage";
-import "../../App.css";
-
+import "../../../App.css";
 function MyCarousel() {
   return (
     <Carousel className="carousel">
       <Carousel.Item className="carousel" interval={3000}>
-        <CarouselImage className="carousel-image" />
+        <CarouselImage />
       </Carousel.Item>
       <Carousel.Item className="carousel" interval={3000}>
         <CarouselImage />

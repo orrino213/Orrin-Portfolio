@@ -1,7 +1,6 @@
 .body{
-  position:inherit;
   width: 100vw;
-  height: auto;
+  height:max-content;
   margin: 0;
   padding: 0;
   background-color: black;
@@ -13,6 +12,7 @@
 
 .carousel{
   display: flex;
+  padding-left: 2rem;
   justify-content: center;
   align-items: center;
 }
@@ -21,6 +21,50 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 40rem;
+}
+
+.footer {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  width: 100vw;
+  height: 5rem;
+  background-color: black;
+  color: rgb(145, 145, 145);
+}
+
+.headshot-container{
+  padding: 6rem;
+  display: flex;
+  color: white;
+  overflow: hidden; 
+}
+
+.headshot{
+  padding-right: 19px;
+  width: 33%;
+  object-fit: cover; 
+}
+
+.contactus-container{
+  width: 50%;
+  padding-block-start: .4rem;
+  padding-left: 2rem;
+  color: white;
+}
+
+.privacy-container{
+  width: 50%;
+  padding-top: 5rem;
+  padding-left: 2rem;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.p{
+  font-size:xx-large ;
 }
 
 

@@ -10,7 +10,9 @@ function MyNavbar() {
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="me-auto">
           <Nav.Link href="/">Home</Nav.Link>
-          <Nav.Link href="#link">Link</Nav.Link>
+          <Nav.Link href="/aboutus">About Us</Nav.Link>
+          <Nav.Link href="/contactus">Contact Us</Nav.Link>
+          <Nav.Link href="/privacy">Privacy Policy</Nav.Link>
           <NavDropdown title="Dropdown" id="basic-nav-dropdown">
             <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
             <NavDropdown.Item href="#action/3.2">
