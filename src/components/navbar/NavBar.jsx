@@ -1,6 +1,6 @@
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
+// import NavDropdown from "react-bootstrap/NavDropdown";
 
 function MyNavbar() {
   return (
@@ -13,7 +13,21 @@ function MyNavbar() {
           <Nav.Link href="/aboutus">About Us</Nav.Link>
           <Nav.Link href="/contactus">Contact Us</Nav.Link>
           <Nav.Link href="/privacy">Privacy Policy</Nav.Link>
-          <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+          <Nav.Link
+            href="https://www.facebook.com/Orbeltheloanofficer"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Facebook
+          </Nav.Link>
+          <Nav.Link
+            href="https://www.instagram.com/orbel_the_loan_officer/?hl=en"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Instagram
+          </Nav.Link>
+          {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
             <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
             <NavDropdown.Item href="#action/3.2">
               Another action
@@ -23,7 +37,7 @@ function MyNavbar() {
             <NavDropdown.Item href="#action/3.4">
               Separated link
             </NavDropdown.Item>
-          </NavDropdown>
+          </NavDropdown> */}
         </Nav>
       </Navbar.Collapse>
     </Navbar>

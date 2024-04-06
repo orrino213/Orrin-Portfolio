@@ -4,6 +4,7 @@ import orbelHeadshot from "../../assets/orbelHeadshot.jpg";
 function Home() {
   return (
     <div>
+      <MyCarousel />
       <div className="headshot-container">
         <img className="headshot" src={orbelHeadshot} alt="orbleheadshot" />
         <div>
@@ -29,7 +30,6 @@ function Home() {
           </p>
         </div>
       </div>
-      <MyCarousel />
     </div>
   );
 }
