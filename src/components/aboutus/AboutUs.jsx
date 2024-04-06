@@ -25,6 +25,8 @@ function AboutUs() {
           Contact Orbel today to experience the difference a knowledgeable and
           dedicated realtor can make in your real estate journey.
         </p>
+        <p>NMLS - 1606317</p>
+        <p>DRE - 02102368</p>
       </div>
     </div>
   );

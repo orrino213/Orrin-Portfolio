@@ -6,6 +6,9 @@ import CarouselImage4 from "./CarouselImage4";
 import CarouselImage5 from "./CarouselImage5";
 import CarouselImage6 from "./CarouselImage6";
 import CarouselImage7 from "./CarouselImage7";
+import CarouselImage8 from "./CarouselImage8";
+import CarouselImage9 from "./CarouselImage9";
+import CarouselImage10 from "./CarouselImage10";
 import "../../../App.css";
 
 function MyCarousel() {
@@ -65,6 +68,30 @@ function MyCarousel() {
           <h3>Refinanced!!!</h3>
           <h5>43175 Avenida Estrella, Indio, CA 92203</h5>
           <h1>$475,000</h1>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item className="carousel" interval={2100}>
+        <CarouselImage8 />
+        <Carousel.Caption className="carousel-caption">
+          <h3>Refinanced!!!</h3>
+          <h5>7432 Summitrose St, Tujunga, CA 91042</h5>
+          <h1>$551,000</h1>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item className="carousel" interval={2100}>
+        <CarouselImage9 />
+        <Carousel.Caption className="carousel-caption">
+          <h3>Refinanced!!!</h3>
+          <h5>8792 Wyngate St, Los Angeles, CA 91040</h5>
+          <h1>$529,000</h1>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item className="carousel" interval={2100}>
+        <CarouselImage9 />
+        <Carousel.Caption className="carousel-caption">
+          <h3>Refinanced!!!</h3>
+          <h5>10249 Tujunga Canyon Blvd UNIT 2, Tujunga, CA 91042</h5>
+          <h1>$405,000</h1>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

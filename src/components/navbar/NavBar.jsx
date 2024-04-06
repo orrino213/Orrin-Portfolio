@@ -1,11 +1,14 @@
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import "../../App.css";
 // import NavDropdown from "react-bootstrap/NavDropdown";
 
 function MyNavbar() {
   return (
     <Navbar expand="lg" className="bg-body-secondary" fixed="top">
-      <Navbar.Brand href="/">Orbel the Loan Officer</Navbar.Brand>
+      <Navbar.Brand href="/" className="navbar">
+        Orbel the Loan Officer
+      </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="me-auto">
@@ -26,6 +29,13 @@ function MyNavbar() {
             rel="noopener noreferrer"
           >
             Instagram
+          </Nav.Link>
+          <Nav.Link
+            href="https://www.threads.net/@orbel_the_loan_officer"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Threads
           </Nav.Link>
           {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
             <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>

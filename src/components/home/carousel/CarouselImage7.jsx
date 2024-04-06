@@ -1,7 +1,7 @@
-import carouselimage7 from "../../../assets/carouselimage7.jpg";
+import carouselImage7 from "../../../assets/carouselimage7.jpg";
 
 function CarouselImage7() {
-  return <img src={carouselimage7} alt="ferrari" className="carousel-image" />;
+  return <img src={carouselImage7} alt="ferrari" className="carousel-image" />;
 }
 
 export default CarouselImage7;

@@ -21,7 +21,9 @@ function App() {
           </Routes>
         </BrowserRouter>
         <footer className="footer">
-          Copyright © 2023 Orbeltheloanofficer - All Rights Reserved.
+          <p>Copyright © 2023 Orbeltheloanofficer - All Rights Reserved.</p>
+          <p className="pf">NMLS - 1606317</p>
+          <p className="pf">DRE - 02102368</p>
         </footer>
       </div>
     </body>
