@@ -6,7 +6,7 @@ import "../../App.css";
 function MyNavbar() {
   return (
     <Navbar expand="lg" className="bg-body-secondary" fixed="top">
-      <Navbar.Brand href="/" className="navbar">
+      <Navbar.Brand href="/" className="brand">
         Orbel the Loan Officer
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />

@@ -88,6 +88,18 @@
   align-items: center;
 }
 
+.title{
+  color: white;
+  background-color: black;
+  height: 5rem;
+  padding-top: 6rem;
+  /* padding-left: 4rem; */
+  text-align: center;
+  font-family: Rubik Mono One;
+  font-style: italic;
+  font-size: 500%;
+}
+
 .p{
   font-size:xx-large ;
 }
@@ -96,8 +108,16 @@
   padding-left: 1rem;
 }
 
-.navbar {
-  padding-left: 1rem !important;
+.brand{
+  border-style: solid;
+  border-radius: 50px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  left: 0;
+  right: 0;
+  margin-left: 1rem;
+  padding-inline: 2rem;
 }
 
 
