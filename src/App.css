@@ -59,7 +59,7 @@
   text-align: center;
 }
 
-.headshot-container{
+.about-container{
   padding: 6rem;
   display: flex;
   color: white;
@@ -68,8 +68,12 @@
 
 .headshot{
   padding-right: 19px;
-  width: 33%;
+  width: 33vw;
   object-fit: cover; 
+}
+
+.headshot-text{
+  flex: 1;
 }
 
 .contactus-container{
@@ -86,6 +90,10 @@
   color: white;
   justify-content: center;
   align-items: center;
+}
+
+.title-container{
+  min-height: fit-content;
 }
 
 .title{
@@ -106,8 +114,9 @@
   background-color: black;
   height: 5rem;
   padding-top: 6rem;
+  padding-right: 1rem;
   text-align: center;
-  font-size: 100%;
+  font-size: 175%;
   font-family: "Comfortaa", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;

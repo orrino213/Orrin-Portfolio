@@ -2,9 +2,9 @@ import orbelHeadshot from "../../assets/orbelHeadshot.jpg";
 
 function AboutUs() {
   return (
-    <div className="headshot-container">
+    <div className="about-container">
       <img className="headshot" src={orbelHeadshot} alt="orbleheadshot" />
-      <div>
+      <div className="headshot-text">
         <h1>About Orbel Sarkisian</h1>
         <p className="p">
           With over 8 years of dedicated experience in the real estate industry,
