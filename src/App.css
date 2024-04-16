@@ -153,7 +153,7 @@
   
   
   .body{
-    width: 100%;
+    width: 100vw;
     height:max-content;
     margin: 0;
     padding: 0;
@@ -165,7 +165,7 @@
   }
   
   .carousel{
-    width: 100%;
+    width: 100vw;
   padding-top: 1rem;
    padding-right: 2rem;
   display: flex;
@@ -255,8 +255,8 @@
 .title{
   color: white;
   background-color: black;
-  height: 1rem;
-  padding-top: 6rem;
+  height: auto;
+  padding-top: 20%;
   text-align: center;
   font-size: 500%;
   font-family: "Comfortaa", sans-serif;
@@ -269,10 +269,9 @@
   color: white;
   background-color: black;
   min-height: 5rem;
-  padding-top: 6rem;
-  padding-right: 1rem;
+  padding-top: 10%;
   text-align: center;
-  font-size: 175%;
+  font-size: 125%;
   font-family: "Comfortaa", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
