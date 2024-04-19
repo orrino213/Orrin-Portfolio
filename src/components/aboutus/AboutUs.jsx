@@ -7,12 +7,11 @@ function AboutUs() {
       <div className="headshot-text">
         <h1>About Orbel Sarkisian</h1>
         <p className="p">
-          With over 8 years of dedicated experience in the real estate industry,
-          Orbel Sarkisian has established himself as a trusted and successful
-          realtor in the Southern California area. His passion for helping
-          clients achieve their real estate goals, paired with his in-depth
-          knowledge of the local market, has led to the successful funding of
-          numerous homes.
+          With over 8 years of experience in the real estate industry, Orbel
+          Sarkisian has established himself as a trusted and successful realtor
+          in the Southern California area. His passion for helping clients
+          achieve their real estate goals, paired with his in-depth knowledge of
+          the local market, has led to the successful funding of numerous homes.
         </p>
         <p className="p">
           Orbel's commitment to his clients is unparalleled, always putting
