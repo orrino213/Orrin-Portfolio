@@ -7,7 +7,7 @@ function AboutUs() {
       <div className="headshot-text">
         <h1>About Orbel Sarkisian</h1>
         <p className="p">
-          With over 8 years of great experience in the real estate industry,
+          With over 8 years of amazing experience in the real estate industry,
           Orbel Sarkisian has established himself as a trusted and successful
           realtor in the Southern California area. His passion for helping
           clients achieve their real estate goals, paired with his in-depth
