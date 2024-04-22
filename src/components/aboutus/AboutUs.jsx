@@ -7,23 +7,13 @@ function AboutUs() {
       <div className="headshot-text">
         <h1>About Orbel Sarkisian</h1>
         <p className="p">
-          With over 8 years of amazing experience in the real estate industry,
-          Orbel Sarkisian has established himself as a trusted and successful
-          realtor in the Southern California area. His passion for helping
-          clients achieve their real estate goals, paired with his in-depth
-          knowledge of the local market, has led to the successful funding of
-          numerous homes.
-        </p>
-        <p className="p">
-          Orbel's commitment to his clients is unparalleled, always putting
-          their needs first and ensuring a smooth and seamless transaction
-          process. Whether you're buying, selling, or investing in real estate,
-          Orbel Sarkisian is your go-to realtor for personalized service and
-          exceptional results.
-        </p>
-        <p className="p">
-          Contact Orbel today to experience the difference a knowledgeable and
-          dedicated realtor can make in your real estate journey.
+          Hi! My name is Orbel Sarkisian and I am a mortgage advisor. I take
+          great pride in my ability to not only find the best suited mortgage
+          solutions for my clients but to also deliver the best suited options
+          in an organized and easy to understand manner. Sometimes this means
+          providing screen recording videos and other times it is over a zoom
+          meeting. My goal is to empower my clients with the right information
+          so that they can clearly see the best option for them.
         </p>
         <p>NMLS - 1606317</p>
         <p>DRE - 02102368</p>
