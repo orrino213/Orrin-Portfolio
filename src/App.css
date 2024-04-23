@@ -88,13 +88,14 @@
 
 
   .headshot{
-    padding-right: 19px;
-    width: 33vw;
+    width: 33%;
     object-fit: cover; 
+    border-radius: 50px;
   }
 
   .headshot-text{
     flex: 1;
+    padding-left: 3%;
   }
 
   .mission{
@@ -232,7 +233,7 @@
   .headshot{
     width: 100%;
     object-fit: cover; 
-    padding-top: 30px;
+    border-radius: 50px;
   }
   
   .headshot-text{
