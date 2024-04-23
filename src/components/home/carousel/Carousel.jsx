@@ -87,7 +87,7 @@ function MyCarousel() {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item className="carousel" interval={2100}>
-        <CarouselImage9 />
+        <CarouselImage10 />
         <Carousel.Caption className="carousel-caption">
           <h3>Refinanced!!!</h3>
           <h5>10249 Tujunga Canyon Blvd UNIT 2, Tujunga, CA 91042</h5>
