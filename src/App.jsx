@@ -6,6 +6,7 @@ import MyNavbar from "./components/navbar/NavBar";
 import PrivacyPolicy from "./components/privacy/PrivacyPolicy";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
+import equalhousing from "./assets/equalhousing.jpg";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           </Routes>
         </BrowserRouter>
         <footer className="footer">
+          <img src={equalhousing} alt="logo" />
           <p>Copyright © 2023 Orbeltheloanofficer - All Rights Reserved.</p>
           <p className="pf">NMLS - 1606317</p>
           <p className="pf">DRE - 02102368</p>
