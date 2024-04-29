@@ -1,7 +1,6 @@
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import "../../App.css";
-// import NavDropdown from "react-bootstrap/NavDropdown";
 
 function MyNavbar() {
   return (

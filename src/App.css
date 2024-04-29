@@ -75,17 +75,23 @@
   
   .footer {
     display: flex;
-    justify-content: center;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    padding-left: 2rem;
-    width: 100vw;
-    height:fit-content;
+    justify-content: space-around;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: 100%;
     background-color: black;
     color: rgb(145, 145, 145);
     text-align: center;
+    align-items: center;
   }
 
+  .footer-container{
+    width: 90%;
+  }
+
+  .footer-image{
+    max-width: 7%;
+  }
 
   .headshot{
     width: 33%;
@@ -115,10 +121,6 @@
 
   .p{
     font-size:xx-large ;
-  }
-
-  .pf{
-    padding-left: 1rem;
   }
 
   .privacy-container{
@@ -222,7 +224,7 @@
   }
   
   .footer {
-    justify-content: space-evenly;
+    justify-content: space-around;
     padding-top: 30px;
     height:fit-content;
     background-color: black;
@@ -230,6 +232,11 @@
     text-align: center;
   }
   
+  .footer-image{
+    max-width: 20%;
+    padding-bottom: 5%;
+  }
+
   .headshot{
     width: 100%;
     object-fit: cover; 
@@ -259,10 +266,6 @@
   
   .p{
     font-size:medium ;
-  }
-
-  .pf{
-    padding-left: 1rem;
   }
 
   .privacy-container{

@@ -13,7 +13,7 @@ function Home() {
         </h5>
       </div>
       <MyCarousel />
-      <AboutUs />
+      <AboutUs id="about" />
     </div>
   );
 }
