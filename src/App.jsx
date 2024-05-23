@@ -1,9 +1,10 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./components/home/Home";
-import AboutUs from "./components/aboutus/AboutUs";
-import ContactUs from "./components/contactus/ContactUs";
-import MyNavbar from "./components/navbar/NavBar";
-import PrivacyPolicy from "./components/privacy/PrivacyPolicy";
+import Home from "./components/Home";
+import AboutUs from "./components/AboutUs";
+import ContactUs from "./components/ContactUs";
+import MyNavbar from "./components/NavBar";
+import PrivacyPolicy from "./components/PrivacyPolicy";
+import Register from "./components/Register";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import equalhousing from "./assets/equalhousing.jpg";
@@ -19,6 +20,7 @@ function App() {
             <Route path="/aboutus" element={<AboutUs />} />
             <Route path="/contactus" element={<ContactUs />} />
             <Route path="/privacy" element={<PrivacyPolicy />} />
+            <Route path="/register" element={<Register />} />
           </Routes>
         </BrowserRouter>
         <footer className="footer">

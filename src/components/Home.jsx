@@ -1,5 +1,5 @@
 import MyCarousel from "./carousel/Carousel";
-import AboutUs from "../aboutus/AboutUs";
+import AboutUs from "./AboutUs";
 
 function Home() {
   return (
@@ -9,7 +9,7 @@ function Home() {
         <h5 className="mission">
           My mission is to empower individuals & families with personalized
           mortgage solutions because homeownership is the catalyst for freedom,
-          stability and wealth
+          stability and wealth!
         </h5>
       </div>
       <MyCarousel />

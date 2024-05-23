@@ -9,7 +9,7 @@ import CarouselImage7 from "./CarouselImage7";
 import CarouselImage8 from "./CarouselImage8";
 import CarouselImage9 from "./CarouselImage9";
 import CarouselImage10 from "./CarouselImage10";
-import "../../../App.css";
+import "../../App.css";
 
 function MyCarousel() {
   return (

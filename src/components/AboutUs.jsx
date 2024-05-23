@@ -1,4 +1,4 @@
-import orbelHeadshot from "../../assets/orbelHeadshot.jpg";
+import orbelHeadshot from "../assets/orbelHeadshot.jpg";
 
 function AboutUs() {
   return (
