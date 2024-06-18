@@ -13,8 +13,8 @@ import "../../App.css";
 
 function MyCarousel() {
   return (
-    <Carousel className="carousel">
-      <Carousel.Item className="carousel" interval={2100}>
+    <Carousel className="carousel-container">
+      <Carousel.Item interval={2100}>
         <CarouselImage />
         <Carousel.Caption className="carousel-caption">
           <h3>Funded!!!</h3>
@@ -22,7 +22,7 @@ function MyCarousel() {
           <h1>$850,000</h1>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item className="carousel" interval={2100}>
+      <Carousel.Item interval={2100}>
         <CarouselImage2 />
         <Carousel.Caption className="carousel-caption">
           <h3>Funded!!!</h3>
@@ -30,7 +30,7 @@ function MyCarousel() {
           <h1>$900,000</h1>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item className="carousel" interval={2100}>
+      <Carousel.Item interval={2100}>
         <CarouselImage3 />
         <Carousel.Caption className="carousel-caption">
           <h3>Funded!!!</h3>
@@ -38,7 +38,7 @@ function MyCarousel() {
           <h1>$765,000</h1>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item className="carousel" interval={2100}>
+      <Carousel.Item interval={2100}>
         <CarouselImage4 />
         <Carousel.Caption className="carousel-caption">
           <h3>Funded!!!</h3>
@@ -46,7 +46,7 @@ function MyCarousel() {
           <h1>$540,000</h1>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item className="carousel" interval={2100}>
+      <Carousel.Item interval={2100}>
         <CarouselImage5 />
         <Carousel.Caption className="carousel-caption">
           <h3>Funded!!!</h3>
@@ -54,7 +54,7 @@ function MyCarousel() {
           <h1>$615,000</h1>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item className="carousel" interval={2100}>
+      <Carousel.Item interval={2100}>
         <CarouselImage6 />
         <Carousel.Caption className="carousel-caption">
           <h3>Funded!!!</h3>
@@ -62,7 +62,7 @@ function MyCarousel() {
           <h1>$807,000</h1>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item className="carousel" interval={2100}>
+      <Carousel.Item interval={2100}>
         <CarouselImage7 />
         <Carousel.Caption className="carousel-caption">
           <h3>Refinanced!!!</h3>
@@ -70,7 +70,7 @@ function MyCarousel() {
           <h1>$475,000</h1>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item className="carousel" interval={2100}>
+      <Carousel.Item interval={2100}>
         <CarouselImage8 />
         <Carousel.Caption className="carousel-caption">
           <h3>Refinanced!!!</h3>
@@ -78,7 +78,7 @@ function MyCarousel() {
           <h1>$551,000</h1>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item className="carousel" interval={2100}>
+      <Carousel.Item interval={2100}>
         <CarouselImage9 />
         <Carousel.Caption className="carousel-caption">
           <h3>Refinanced!!!</h3>
@@ -86,7 +86,7 @@ function MyCarousel() {
           <h1>$529,000</h1>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item className="carousel" interval={2100}>
+      <Carousel.Item interval={2100}>
         <CarouselImage10 />
         <Carousel.Caption className="carousel-caption">
           <h3>Refinanced!!!</h3>

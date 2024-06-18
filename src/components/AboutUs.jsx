@@ -3,8 +3,8 @@ import orbelHeadshot from "../assets/orbelHeadshot.jpg";
 function AboutUs() {
   return (
     <div className="about-container">
-      <img className="headshot" src={orbelHeadshot} alt="orbleheadshot" />
-      <div className="headshot-text">
+      <img className="about-image" src={orbelHeadshot} alt="orbleheadshot" />
+      <div className="about-text">
         <h1>About Orbel Sarkisian</h1>
         <p className="p">
           Hi! My name is Orbel Sarkisian and I am a mortgage advisor. I take
