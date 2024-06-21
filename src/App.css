@@ -223,7 +223,7 @@
   }
   
   .cheeseburger{
-    margin-right: 10px;
+    margin-right: 5%;
   }
 
   .contactus-container{
@@ -295,5 +295,18 @@
 }
 
 
+@media screen and (max-width: 380px){
 
+  .brand {
+    max-width: 70%;
+    margin-left: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    display: inline-block;
+    white-space: nowrap;
+    text-overflow: clip;
+    overflow: hidden;
+    transform-origin: left center;
+  }
+}
 
