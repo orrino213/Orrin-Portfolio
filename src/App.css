@@ -235,12 +235,18 @@
   }
   
   .footer {
+    width: 100%;
     justify-content: space-around;
     padding-top: 30px;
+    padding-left: 8%;
     height:fit-content;
     background-color: black;
     color: rgb(145, 145, 145);
     text-align: center;
+  }
+
+  .footer-container{
+    width: 90%;
   }
   
   .footer-image{
@@ -290,20 +296,21 @@
 
   .title-container{
     width: 100%;
-    overflow: hidden;
+    overflow: none;
+    padding-left: 1%;
+    text-align: center;
   }
 }
 
 
 @media screen and (max-width: 380px){
-
+  
   .brand {
     max-width: 70%;
     margin-left: 10px;
     padding-left: 12px;
     padding-right: 12px;
     display: inline-block;
-    white-space: nowrap;
     text-overflow: clip;
     overflow: hidden;
     transform-origin: left center;
