@@ -13,7 +13,7 @@ function AboutUs() {
           in an organized and easy to understand manner. Sometimes this means
           providing screen recording videos and other times it is over a zoom
           meeting. My goal is to empower my clients with the right information
-          so that they can clearly see the best option for them.
+          so that they can clearly see the best option for them.sdfg
         </p>
         <p>NMLS - 1606317</p>
         <p>DRE - 02102368</p>
